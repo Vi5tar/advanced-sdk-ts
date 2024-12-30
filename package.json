@@ -1,6 +1,9 @@
 {
-  "name": "@coinbase-samples/advanced-sdk-ts",
+  "name": "@vi5tar/advanced-sdk-ts",
   "version": "0.1.0",
+  "repository": {
+    "url": "https://github.com/Vi5tar/advanced-sdk-ts"
+  },
   "main": "dist/main.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
