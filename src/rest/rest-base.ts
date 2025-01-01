@@ -64,7 +64,7 @@ export class RESTBase {
     const responseText = await response.text();
     handleException(response, responseText, response.statusText);
 
-    return responseText;
+    return await response.json();
   }
 
   setHeaders(httpMethod: string, urlPath: string, isPublic?: boolean) {
