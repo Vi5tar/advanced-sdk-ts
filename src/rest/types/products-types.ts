@@ -58,9 +58,7 @@ export type GetProductRequest = {
   getTradabilityStatus?: boolean;
 };
 
-export type GetProductResponse = {
-  body?: Product;
-};
+export type GetProductResponse = Product;
 
 // Get Product Candles
 export type GetProductCandlesRequest = {
